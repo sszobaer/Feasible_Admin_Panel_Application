@@ -33,16 +33,20 @@
     elseif(isset($_GET['signUp'])){
         include('./client/signUp.php');
     }
-    elseif(isset($_GET[''])){
-        include('./client/');
+    elseif(isset($_GET['login'])){
+        include('./client/login.php');
     }
-    elseif(isset($_GET[''])){
-        include('./client/');
+    elseif(isset($_GET['ViewProfile'])){
+        include('./client/ViewProfile.php');
     }
-    elseif(isset($_GET[''])){
-        include('./client/');
+    elseif(isset($_GET['profileSettings'])){
+        include('./client/profileSettings.php');
     }
+
+    //Footer Area
+    include('./client/footer.php');
     ?>
     
+    <script src="./public/JS/script.js"></script>
 </body>
 </html>
