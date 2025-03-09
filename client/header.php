@@ -8,12 +8,12 @@
 <body>
     <!--Menu Area-->
     <header>
-        <div class="mainText">Admin Panel</div>
+        <div class="mainText">Code Craft Zobaer Limited</div>
         <nav>
             <ul class="navlinks">
                 <li>
-                <select name="Profile" id="">
-                    <option value="">View Profile</option>
+                <select name="Profile" id="profileSelect" onchange="navigateProfile()">
+                    <option value="?ViewProfile=true">View Profile</option>
                     <option value="?profileSettings=true">Profile Settings</option>
                     <option value="?signUp=true">Sign Up</option>
                     <option value="?login=true">Login</option>
